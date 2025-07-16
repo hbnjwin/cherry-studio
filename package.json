@@ -1,21 +1,15 @@
 {
-  "name": "CherryStudio",
+  "name": "TutuStudio",
   "version": "1.4.11",
   "private": true,
   "description": "A powerful AI assistant for producer.",
   "main": "./out/main/index.js",
-  "author": "support@cherry-ai.com",
-  "homepage": "https://github.com/CherryHQ/cherry-studio",
+  "author": "support@tutu-ai.com",
+  "homepage": "https://github.com/TutuHQ/tutu-studio",
   "workspaces": {
     "packages": [
-      "local",
       "packages/*"
-    ],
-    "installConfig": {
-      "hoistingLimits": [
-        "packages/database"
-      ]
-    }
+    ]
   },
   "scripts": {
     "start": "electron-vite preview",

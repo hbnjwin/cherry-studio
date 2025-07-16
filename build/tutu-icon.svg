@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#FF6B6B" stroke="#FF4757" stroke-width="8"/>
+  
+  <!-- Inner circle for depth -->
+  <circle cx="256" cy="256" r="200" fill="#FF7675" opacity="0.8"/>
+  
+  <!-- Text "T" for Tutu -->
+  <text x="256" y="320" font-family="Arial, sans-serif" font-size="200" font-weight="bold" 
+        text-anchor="middle" fill="white" stroke="#FF4757" stroke-width="2">T</text>
+  
+  <!-- Small decorative elements (tutu-like) -->
+  <path d="M 150 400 Q 200 380 250 400 Q 300 380 350 400 Q 320 420 256 420 Q 192 420 150 400" 
+        fill="white" opacity="0.7"/>
+  <path d="M 170 420 Q 210 410 250 420 Q 290 410 330 420 Q 310 430 256 430 Q 202 430 170 420" 
+        fill="white" opacity="0.5"/>
+</svg>

@@ -1205,7 +1205,7 @@
             },
             "description": [
               "劃詞助手需「<strong>輔助使用權限</strong>」才能正常工作。",
-              "請點擊「<strong>去設定</strong>」，並在稍後彈出的權限請求彈窗中點擊 「<strong>打開系統設定</strong>」 按鈕，然後在之後的應用程式列表中找到 「<strong>Cherry Studio</strong>」，並開啟權限開關。",
+              "請點擊「<strong>去設定</strong>」，並在稍後彈出的權限請求彈窗中點擊 「<strong>打開系統設定</strong>」 按鈕，然後在之後的應用程式列表中找到 「<strong>Tutu Studio</strong>」，並開啟權限開關。",
               "完成設定後，請再次開啟劃詞助手。"
             ],
             "title": "輔助使用權限"
@@ -2639,7 +2639,7 @@
         "filter_modal": {
           "title": "應用篩選名單",
           "user_tips": {
-            "windows": "請輸入應用的執行檔名稱，每行一個，不區分大小寫，可以模糊匹配。例如：chrome.exe、weixin.exe、Cherry Studio.exe等",
+            "windows": "請輸入應用的執行檔名稱，每行一個，不區分大小寫，可以模糊匹配。例如：chrome.exe、weixin.exe、Tutu Studio.exe等",
             "mac": "請輸入應用的 Bundle ID，每行一個，不區分大小寫，可以模糊匹配。例如：com.google.Chrome、com.apple.mail等"
           }
         }

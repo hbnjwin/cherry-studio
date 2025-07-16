@@ -293,7 +293,7 @@ export async function callMCPTool(toolResponse: MCPToolResponse): Promise<MCPCal
           env: resp.data.env,
           registryUrl: '',
           isActive: false,
-          provider: 'CherryAI'
+          provider: 'TutuAI'
         }
         store.dispatch(addMCPServer(mcpServer))
       }

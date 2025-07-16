@@ -12,23 +12,23 @@ import ThinkingServer from './sequentialthinking'
 export function createInMemoryMCPServer(name: string, args: string[] = [], envs: Record<string, string> = {}): Server {
   Logger.info(`[MCP] Creating in-memory MCP server: ${name} with args: ${args} and envs: ${JSON.stringify(envs)}`)
   switch (name) {
-    case '@cherry/memory': {
+    case '@tutu/memory': {
       const envPath = envs.MEMORY_FILE_PATH
       return new MemoryServer(envPath).server
     }
-    case '@cherry/sequentialthinking': {
+    case '@tutu/sequentialthinking': {
       return new ThinkingServer().server
     }
-    case '@cherry/brave-search': {
+    case '@tutu/brave-search': {
       return new BraveSearchServer(envs.BRAVE_API_KEY).server
     }
-    case '@cherry/fetch': {
+    case '@tutu/fetch': {
       return new FetchServer().server
     }
-    case '@cherry/filesystem': {
+    case '@tutu/filesystem': {
       return new FileSystemServer(args).server
     }
-    case '@cherry/dify-knowledge': {
+    case '@tutu/dify-knowledge': {
       const difyKey = envs.DIFY_KEY
       return new DifyKnowledgeServer(difyKey, args).server
     }

@@ -61,13 +61,13 @@ const Sidebar: FC = () => {
     navigate(path)
   }
 
-  const docsId = 'cherrystudio-docs'
+  const docsId = 'tutustudio-docs'
   const onOpenDocs = () => {
     const isChinese = i18n.language.startsWith('zh')
     openMinapp({
       id: docsId,
       name: t('docs.title'),
-      url: isChinese ? 'https://docs.cherry-ai.com/' : 'https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us',
+      url: isChinese ? 'https://docs.tutu-ai.com/' : 'https://docs.tutu-ai.com/tutu-studio-wen-dang/en-us',
       logo: AppLogo
     })
   }

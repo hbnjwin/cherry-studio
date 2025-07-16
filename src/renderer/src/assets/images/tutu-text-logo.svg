@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="tutu_logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #FF6B6B;
+      }
+      .cls-2 {
+        fill: #FF4757;
+      }
+      .cls-3 {
+        fill: #FF8A80;
+      }
+    </style>
+  </defs>
+  <g id="text_layer">
+    <g>
+      <!-- Letter T -->
+      <g>
+        <path class="cls-1" d="M10,15 L50,15 L50,25 L35,25 L35,55 L25,55 L25,25 L10,25 Z"/>
+      </g>
+      
+      <!-- Letter U -->
+      <g>
+        <path class="cls-2" d="M60,15 L70,15 L70,40 Q70,50 80,50 Q90,50 90,40 L90,15 L100,15 L100,40 Q100,60 80,60 Q60,60 60,40 Z"/>
+      </g>
+      
+      <!-- Letter T -->
+      <g>
+        <path class="cls-1" d="M110,15 L150,15 L150,25 L135,25 L135,55 L125,55 L125,25 L110,25 Z"/>
+      </g>
+      
+      <!-- Letter U -->
+      <g>
+        <path class="cls-2" d="M160,15 L170,15 L170,40 Q170,50 180,50 Q190,50 190,40 L190,15 L200,15 L200,40 Q200,60 180,60 Q160,60 160,40 Z"/>
+      </g>
+    </g>
+    
+    <!-- Decorative elements -->
+    <g opacity="0.6">
+      <!-- Small tutu-like decoration under the text -->
+      <path class="cls-3" d="M20,58 Q30,55 40,58 Q35,62 30,62 Q25,62 20,58"/>
+      <path class="cls-3" d="M70,58 Q80,55 90,58 Q85,62 80,62 Q75,62 70,58"/>
+      <path class="cls-3" d="M120,58 Q130,55 140,58 Q135,62 130,62 Q125,62 120,58"/>
+      <path class="cls-3" d="M170,58 Q180,55 190,58 Q185,62 180,62 Q175,62 170,58"/>
+    </g>
+  </g>
+</svg>

@@ -1,5 +1,5 @@
-appId: com.kangfenmao.CherryStudio
-productName: Cherry Studio
+appId: com.kangfenmao.TutuStudio
+productName: Tutu Studio
 electronLanguages:
   - zh-CN
   - zh-TW
@@ -13,9 +13,9 @@ directories:
   buildResources: build
 
 protocols:
-  - name: Cherry Studio
+  - name: Tutu Studio
     schemes:
-      - cherrystudio
+      - tutustudio
 files:
   - '**/*'
   - '!**/{.vscode,.yarn,.yarn-lock,.github,.cursorrules,.prettierrc}'
@@ -62,7 +62,7 @@ asarUnpack:
   - resources/**
   - '**/*.{metal,exp,lib}'
 win:
-  executableName: Cherry Studio
+  executableName: Tutu Studio
   artifactName: ${productName}-${version}-${arch}-setup.${ext}
   target:
     - target: nsis
@@ -104,12 +104,12 @@ linux:
   category: Utility
   desktop:
     entry:
-      StartupWMClass: CherryStudio
+      StartupWMClass: TutuStudio
   mimeTypes:
-    - x-scheme-handler/cherrystudio
+    - x-scheme-handler/tutustudio
 publish:
   provider: generic
-  url: https://releases.cherry-ai.com
+  url: https://releases.tutu-ai.com
 electronDownload:
   mirror: https://npmmirror.com/mirrors/electron/
 afterPack: scripts/after-pack.js

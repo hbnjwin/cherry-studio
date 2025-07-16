@@ -188,7 +188,7 @@ export function getAllFiles(dirPath: string, arrayOfFiles: FileMetadata[] = []):
 }
 
 export function getTempDir() {
-  return path.join(app.getPath('temp'), 'CherryStudio')
+  return path.join(app.getPath('temp'), 'TutuStudio')
 }
 
 export function getFilesDir() {
@@ -196,7 +196,7 @@ export function getFilesDir() {
 }
 
 export function getConfigDir() {
-  return path.join(os.homedir(), '.cherrystudio', 'config')
+  return path.join(os.homedir(), '.tutustudio', 'config')
 }
 
 export function getCacheDir() {
@@ -208,7 +208,7 @@ export function getAppConfigDir(name: string) {
 }
 
 export function getMcpDir() {
-  return path.join(os.homedir(), '.cherrystudio', 'mcp')
+  return path.join(os.homedir(), '.tutustudio', 'mcp')
 }
 
 /**
